@@ -1,0 +1,347 @@
+{
+  "name": "homeDir",
+  "type": "directory",
+  "readRights": [
+    "admin"
+  ],
+  "writeRights": [
+    "admin"
+  ],
+  "filesAndDirs": [
+    {
+      "name": "operationsLog",
+      "type": "file",
+      "readRights": [
+        "admin"
+      ],
+      "writeRights": [
+        "admin"
+      ],
+      "operations": [
+        {
+          "userName": "admin",
+          "operationName": null,
+          "levelOfDanger": 1,
+          "date": "2022-4-30 13:42:34",
+          "message": "Access denied. Wrong password"
+        }
+      ],
+      "report": []
+    },
+    {
+      "name": "logBook",
+      "type": "file",
+      "readRights": [
+        "admin"
+      ],
+      "writeRights": [
+        "admin"
+      ],
+      "content": [
+        {
+          "userName": "admin",
+          "password": "admin123"
+        },
+        {
+          "userName": "testuser1",
+          "password": "12345",
+          "passwordChangeTime": 1639065278784,
+          "forbidden": false,
+          "numberOfMistakes": 0,
+          "questions": [
+            12,
+            4,
+            14
+          ]
+        },
+        {
+          "userName": "testuser2",
+          "password": "1111",
+          "passwordChangeTime": 1639075307965,
+          "forbidden": false,
+          "numberOfMistakes": 1,
+          "questions": [
+            1,
+            19,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ask.txt",
+      "type": "file",
+      "readRights": [
+        "admin"
+      ],
+      "writeRights": [
+        "admin"
+      ],
+      "content": [
+        {
+          "func": "a * sin(x)",
+          "a": 66,
+          "x": 81,
+          "ans": -41.57
+        },
+        {
+          "func": "a * sin(x)",
+          "a": 16,
+          "x": 9,
+          "ans": 6.59
+        },
+        {
+          "func": "a * sin(x)",
+          "a": 28,
+          "x": 75,
+          "ans": -10.86
+        },
+        {
+          "func": "a * sin(x)",
+          "a": 95,
+          "x": 15,
+          "ans": 61.78
+        },
+        {
+          "func": "a * sin(x)",
+          "a": 91,
+          "x": 75,
+          "ans": -35.29
+        },
+        {
+          "func": "a * sin(x)",
+          "a": 36,
+          "x": 72,
+          "ans": 9.14
+        },
+        {
+          "func": "a * sin(x)",
+          "a": 28,
+          "x": 46,
+          "ans": 25.25
+        },
+        {
+          "func": "a * sin(x)",
+          "a": 77,
+          "x": 13,
+          "ans": 32.35
+        },
+        {
+          "func": "a * sin(x)",
+          "a": 80,
+          "x": 11,
+          "ans": -80
+        },
+        {
+          "func": "a * sin(x)",
+          "a": 25,
+          "x": 73,
+          "ans": -16.92
+        },
+        {
+          "func": "a * sin(x)",
+          "a": 81,
+          "x": 33,
+          "ans": 80.99
+        },
+        {
+          "func": "a * sin(x)",
+          "a": 47,
+          "x": 3,
+          "ans": 6.63
+        },
+        {
+          "func": "a * sin(x)",
+          "a": 32,
+          "x": 59,
+          "ans": 20.38
+        },
+        {
+          "func": "a * sin(x)",
+          "a": 65,
+          "x": 95,
+          "ans": 44.41
+        },
+        {
+          "func": "a * sin(x)",
+          "a": 96,
+          "x": 94,
+          "ans": -23.54
+        },
+        {
+          "func": "a * sin(x)",
+          "a": 99,
+          "x": 70,
+          "ans": 76.62
+        },
+        {
+          "func": "a * sin(x)",
+          "a": 44,
+          "x": 19,
+          "ans": 6.59
+        },
+        {
+          "func": "a * sin(x)",
+          "a": 37,
+          "x": 94,
+          "ans": -9.07
+        },
+        {
+          "func": "a * sin(x)",
+          "a": 50,
+          "x": 68,
+          "ans": -44.9
+        },
+        {
+          "func": "a * sin(x)",
+          "a": 55,
+          "x": 54,
+          "ans": -30.73
+        },
+        {
+          "func": "a * sin(x)",
+          "a": 88,
+          "x": 56,
+          "ans": -45.9
+        },
+        {
+          "func": "a * sin(x)",
+          "a": 86,
+          "x": 96,
+          "ans": 84.59
+        },
+        {
+          "func": "a * sin(x)",
+          "a": 74,
+          "x": 5,
+          "ans": -70.96
+        },
+        {
+          "func": "a * sin(x)",
+          "a": 95,
+          "x": 9,
+          "ans": 39.15
+        }
+      ]
+    },
+    {
+      "name": "A",
+      "type": "directory",
+      "readRights": [
+        "admin"
+      ],
+      "writeRights": [
+        "admin"
+      ],
+      "filesAndDirs": []
+    },
+    {
+      "name": "B",
+      "type": "directory",
+      "readRights": [
+        "admin"
+      ],
+      "writeRights": [
+        "admin"
+      ],
+      "filesAndDirs": [
+        {
+          "name": "testText.txt",
+          "type": "file",
+          "readRights": [
+            "admin"
+          ],
+          "writeRights": [
+            "admin"
+          ],
+          "content": "test line 12345"
+        },
+        {
+          "name": "test",
+          "type": "directory",
+          "readRights": [
+            "admin"
+          ],
+          "writeRights": [
+            "admin"
+          ],
+          "filesAndDirs": []
+        },
+        {
+          "name": "testText2.txt",
+          "type": "file",
+          "readRights": [
+            "admin"
+          ],
+          "writeRights": [
+            "admin"
+          ],
+          "content": "test test test"
+        }
+      ]
+    },
+    {
+      "name": "C",
+      "type": "directory",
+      "readRights": [
+        "admin",
+        "testuser2"
+      ],
+      "writeRights": [
+        "admin",
+        "testuser2"
+      ],
+      "filesAndDirs": [
+        {
+          "name": "txt1",
+          "type": "file",
+          "readRights": [
+            "admin",
+            "testuser2"
+          ],
+          "writeRights": [
+            "admin",
+            "testuser2"
+          ],
+          "content": "testfsafasf"
+        }
+      ]
+    },
+    {
+      "name": "D",
+      "type": "directory",
+      "readRights": [
+        "admin",
+        "testuser2"
+      ],
+      "writeRights": [
+        "admin",
+        "testuser2"
+      ],
+      "filesAndDirs": []
+    },
+    {
+      "name": "E",
+      "type": "directory",
+      "readRights": [
+        "admin"
+      ],
+      "writeRights": [
+        "admin"
+      ],
+      "filesAndDirs": [
+        {
+          "name": "txt1",
+          "type": "file",
+          "readRights": [
+            "admin"
+          ],
+          "writeRights": [
+            "admin"
+          ],
+          "content": "testfsafasf"
+        }
+      ]
+    }
+  ]
+}
